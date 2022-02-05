@@ -1,0 +1,370 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #2e2e2e;
+  font-size: 1em;
+  background-color: #f8f8f8 !important;
+  margin: 0 auto !important;
+  min-width: 320px;
+  max-width: 1920px;
+}
+
+.statusBox {
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation: fadeIn 1.5s;
+          animation: fadeIn 1.5s;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #737373;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+p {
+  margin-bottom: 0rem !important;
+}
+
+header .wrapper {
+  height: 600px;
+  background-color: #ffffff;
+  margin-bottom: 50px;
+}
+
+header .wrapper img {
+  width: 100%;
+  height: 300px;
+  border-radius: 0.125rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+header .wrapper .main-container {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .wrapper .main-container section .text-container {
+  padding: 0 1rem;
+  text-align: center;
+}
+
+header .wrapper .main-container section .text-container h1 {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+header .wrapper .main-container section .text-container p {
+  margin: 1rem;
+}
+
+header .wrapper .main-container section .button-container {
+  margin: 0 auto;
+  width: 200px;
+}
+
+header .wrapper .main-container section .button-container button {
+  padding: 0.5rem 0.7rem;
+  margin-left: 0.5rem;
+  border-radius: 0.225rem;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+header .wrapper .main-container section .button-container button .feather {
+  color: red;
+  width: 1rem;
+  height: 1rem;
+  margin: 0px 4px 2px 0;
+}
+
+.container {
+  max-width: 1920px;
+  margin: auto;
+}
+
+.container .idea-box {
+  margin: 0 2rem;
+}
+
+.container .idea-box .idea {
+  background-color: #ffffff;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 0.525rem;
+  -webkit-box-shadow: 0 0.2rem 0.2rem -0.2rem rgba(0, 0, 0, 0.125);
+          box-shadow: 0 0.2rem 0.2rem -0.2rem rgba(0, 0, 0, 0.125);
+  margin-bottom: 1rem;
+}
+
+.container .idea-box .idea .content-box .head-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.container .idea-box .idea .content-box .head-part button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.container .idea-box .idea .aside {
+  width: 100%;
+}
+
+.container .idea-box .idea section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 2rem 0;
+}
+
+.container .idea-box .idea input {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  border: none;
+  background-color: #f3f3f3;
+  height: 3rem;
+  padding: 0.5rem;
+  border-radius: 0.125rem;
+  width: 100%;
+}
+
+.container .idea-box .idea input:focus {
+  outline: none;
+}
+
+.container .idea-box .idea button {
+  background-color: #f3f3f3;
+  height: 3rem;
+  padding: 0.5rem;
+  border-radius: 0.225rem;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.container .idea-box .idea ul {
+  border-top: 1px solid #737373;
+}
+
+.container .idea-box .idea li {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.container .idea-box .idea li:hover {
+  opacity: 0.4;
+  -webkit-transition: color 3s;
+  transition: color 3s;
+}
+
+.container .other-boxes {
+  margin: 0 2rem;
+}
+
+.container .other-boxes .para {
+  margin-top: 2rem;
+  color: #737373;
+}
+
+.container .other-boxes .original-idea {
+  background-color: #ffffff;
+  border-radius: 0.525rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container .other-boxes .original-idea .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .other-boxes .original-idea .icons div {
+  margin-right: 2rem;
+  font-weight: bold;
+}
+
+.container .other-boxes .original-idea .idea-right-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 0.525rem;
+  -webkit-box-shadow: 0 0.2rem 0.2rem -0.2rem rgba(0, 0, 0, 0.125);
+          box-shadow: 0 0.2rem 0.2rem -0.2rem rgba(0, 0, 0, 0.125);
+  place-items: center;
+}
+
+.container .other-boxes .original-idea .idea-right-box img {
+  width: 30%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  height: 300px;
+}
+
+.container .other-boxes .original-idea .idea-right-box .middle-box {
+  margin: 50px;
+  position: relative;
+}
+
+.container .other-boxes .original-idea .idea-right-box .middle-box .icons {
+  position: absolute;
+  margin-top: 20%;
+  width: 200px;
+}
+
+.container .other-boxes .progress-box {
+  background-color: #ffffff;
+  border-radius: 0.525rem;
+  -webkit-box-shadow: 0 0.2rem 0.2rem -0.2rem rgba(0, 0, 0, 0.125);
+          box-shadow: 0 0.2rem 0.2rem -0.2rem rgba(0, 0, 0, 0.125);
+  height: 220px;
+  padding: 2rem;
+}
+
+.container .other-boxes .progress-box .content-box p {
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.container .other-boxes .progress-box .content-box small {
+  font-weight: bold;
+}
+
+.container .other-boxes .progress-box .link {
+  position: absolute;
+  margin-top: 3rem;
+}
+
+.container .other-boxes .progress-box .link a {
+  color: black;
+}
+
+.container .other-boxes .team-box {
+  background-color: #ffffff;
+  border-radius: 0.525rem;
+  -webkit-box-shadow: 0 0.2rem 0.2rem -0.2rem rgba(0, 0, 0, 0.125);
+          box-shadow: 0 0.2rem 0.2rem -0.2rem rgba(0, 0, 0, 0.125);
+  padding: 2rem;
+}
+
+.container .other-boxes .team-box p {
+  font-weight: bold;
+}
+
+.container .other-boxes .team-box .myButton {
+  background: #3d4399;
+  border-radius: 28px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 28px;
+  margin-top: 1rem;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #000000;
+}
+
+.container .other-boxes .team-box .myButton:hover {
+  background-color: #422cbd;
+}
+
+.container .other-boxes .team-box .myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+@media only screen and (min-width: 600px) {
+  .main-container section {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 3fr 1fr;
+        grid-template-columns: 3fr 1fr;
+  }
+  .main-container section .text-container {
+    text-align: left !important;
+  }
+  .main-container section .text-container h1 {
+    font-size: 3vw !important;
+  }
+  main {
+    margin: auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 3fr 2fr;
+        grid-template-columns: 3fr 2fr;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  main {
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=style.css.map */
