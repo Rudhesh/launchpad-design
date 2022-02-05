@@ -76,13 +76,19 @@
               <section>     
                
             <input type="text" id="inputStatus" placeholder="Enter Comment"/>
+            
                 <div class="d-flex">
                   <button class="ml-auto" onclick="addToFunc(); eraseText()" type="button"><i data-feather="send" class="feather text-muted"></i></button>
                 </div>
               </section>
-                
+              <div  class="d-flex">
+                <p id="title"> </p>
+                <small id="date" class="text-muted"> </small>
+              
+              </div>
              
                 <div id="addTask">
+                
                 </div>
                
               
@@ -90,45 +96,6 @@
             </section>
           
         </div>
-        </div>
-     
-        <div class="idea">
-          
-          <img
-            src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-            class="img-fluid rounded-circle"
-            style="width: 50px; height: 50px; margin-right: 20px"
-            alt="avatar"
-          />
-
-          <div class="content-box">
-            <div class="head-part">
-              <div>
-                <p>Tobias Hochhäusler</p>
-                <small class="text-muted">3 mins ago</small>
-              </div>
-              <button type="button">...</button>
-            </div>
-
-            <h5 class="card-title">We are happy to announce</h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-            <section>
-              <input
-              type="text"
-              id="comment-box" 
-              placeholder="Enter Comment"
-            
-               />
-              <button id="post" type="button" onclick="addToFunc(); eraseTextInput();"><i data-feather="send" class="feather text-muted"></i>
-              </button>
-
-            </section>
-            
-          </div>
         </div>
         <div class="idea">
           <img
@@ -153,15 +120,24 @@
               lead-in to additional content. This content is a little bit
               longer.
             </p>
-            <section>
-              <input
-              type="text"
-            
-              placeholder="Enter Comment"
-               />
-              <button type="button"><i data-feather="send" class="feather text-muted"></i>
-              </button>
+              <section id="wrapper">
+            <aside class="aside">  
+              <section>     
+               
+            <input type="text" id="inputStatus" placeholder="Enter Comment"/>
+                <div class="d-flex">
+                  <button class="ml-auto" onclick="addToFunc(); eraseText()" type="button"><i data-feather="send" class="feather text-muted"></i></button>
+                </div>
+              </section>
+                
+             
+                <div id="addTaskOne">
+                </div>
+               
+              
+            </aside>
             </section>
+          
 
            
            

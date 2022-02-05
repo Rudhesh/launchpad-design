@@ -210,10 +210,6 @@ header .wrapper .main-container section .button-container button .feather {
   transition: color 3s;
 }
 
-.container .other-boxes {
-  margin: 0 2rem;
-}
-
 .container .other-boxes .para {
   margin-top: 2rem;
   color: #737373;
